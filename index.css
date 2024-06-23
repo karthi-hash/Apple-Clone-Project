@@ -1,0 +1,980 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+body{
+    width: 100%;
+    height: 800vh;
+    background: rgb(21, 19, 19);
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(8, 7, 7);
+    color: rgb(225, 216, 216);;
+    display: flex; /* this property change a columns to row*/
+    justify-content:space-around; /* this porperty   */
+    padding: 15px;
+    border-bottom:1px solid rgb(96, 89, 89) ; 
+    
+    
+    
+}
+h3 p{
+    margin-top: 10px;
+    
+    
+}
+nav li{
+    display: inline-block;
+    margin: 10px;  
+}
+button{
+    background-color: rgb(38, 119,211 );
+    color:snow;
+    width: 45px;
+    border-radius: 10px; 
+    text-align: center; 
+    border: rgb(38, 119, 211) solid;
+    
+
+    
+}
+button:hover{
+    background-color: rgb(35, 110, 200) ;
+    border: rgb(35, 110, 200) solid;
+   
+    
+}
+#hdfc {
+    color: snow;
+    text-align: center;
+    margin-top:1%;
+    font-size: small;
+    margin-bottom: 1%;
+    
+    
+}
+#hdfc a{
+    color:rgb(38, 119, 211) ;
+    text-decoration: none;
+
+}
+#hdfc a:hover{
+    text-decoration: underline  rgb(38, 119, 211);
+}
+
+main{
+    width: 100%;
+    height: 112vh;
+    background-color: black;
+}
+h1{
+    padding-top:5vh ;
+    font-size: 385%;
+    padding-left: 15%;
+    color: snow;
+    
+}
+#container{
+    position: relative;
+    width: 85%;
+    height: 85%;
+    
+}
+
+#video{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 20%;
+    margin-top:43px;
+   
+   
+  
+}
+#image{
+    position: absolute;
+    display: none;
+    width: 80%;
+    height: 90%;
+    padding-left: 30%;
+    margin-top: 70px;
+    visibility: hidden; 
+    animation: fade-out 5s ;
+   
+    
+}
+@keyframes fade-out{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+figure{
+    margin-top: 10%;
+    color: snow;
+    text-align: center;
+    font-size: 150%;
+}    
+ #ruppees{
+    color: rgb(147, 142, 142);
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+#b1{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+section{
+    display: flex
+    
+}
+.dynamic{
+   
+    margin-top:5%;
+   background-color: black;
+   width: 38%;
+   height: 100vh;
+   border-radius: 25px;
+   margin-left: 15%;
+   margin-right: 1%;
+   display: grid;
+   place-items: center;
+
+}
+.island{
+    padding-bottom: 5%;
+}
+p.meet{
+   
+    text-align: center;
+    font-size: 250%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    padding-bottom: 10%;
+    
+   
+   
+}
+p.idea{
+    text-align: center;
+    font-size: 250%;
+    padding-top: 10%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+  
+    
+    
+   
+}
+
+ 
+
+#video2{
+    display: none;
+    
+
+}
+
+.bionic{
+ 
+   
+    background-color: black;
+    width: 70%;
+    height: 47.5vh;
+    border-radius: 25px;
+    margin-top: 16%;
+    overflow: hidden;
+  
+
+}
+
+
+
+.chip{
+    text-align: start;
+    font-size:250%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 26%;  
+}
+.bionicchip{
+    padding-top: 10px;
+    padding-left: 10%;
+    width: 100%; 
+
+}
+.biotery{
+    display:flex;
+    flex-direction: column;
+}
+.battery{
+    margin-top: 4%;
+    background-color: black;
+    width: 70%;
+    height: 49vh;
+    border-radius: 25px;
+    
+}
+
+.that{
+    font-size: 130%;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+    
+}
+.in{
+    font-size: 400%;
+    font-weight: 700;
+    padding-left: 15%;
+    padding-top: 20px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    
+
+}
+.day{
+    font-size: 400%;
+    font-weight: 700;
+    padding-left: 30%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+
+}
+
+.action-mode{ 
+    margin-top: 1.5%;
+    background-color: rgba(0,0,0,0.4);
+    width: 25%;
+    height: 95vh;
+    border-radius: 25px;
+    margin-left: 15%;
+    
+  
+}
+.content{
+    text-align: center;
+}
+.action{
+   
+    padding-top: 10%;
+    color: snow;
+    font-size: 150%;
+    padding-bottom: 10px;
+    font-weight: 500;
+   
+}
+.shots{
+   
+    color: snow;
+    font-size: 250%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 500;
+    
+
+}
+.background-clip{
+    position: absolute;
+    z-index: -1;
+    width: 25%;
+    height: 95vh;
+    border-radius: 25px;
+    
+}
+.display{
+   margin-left: 1%;
+   position: relative;
+   margin-top: 1.5%;
+   background-color: black;
+   width: 37%;
+   height: 95vh;
+   border-radius: 25px;
+   display: grid;
+   place-items: center;
+
+}
+.always{
+    text-align: center;
+    font-size: 250%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    padding-left: 19%;
+    padding-right: 19%;
+    font-weight:540;
+}
+.ceramic{
+    position: relative;
+    margin-top:1.5%;
+   background-color: black;
+   width: 38%;
+   height: 95vh;
+   border-radius: 25px;
+   margin-left: 15%;
+   margin-right: 1%;
+   display: grid;
+   place-items: center;
+}
+
+.shield{
+    
+    padding-top:5% ;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 650;
+    color: snow;
+
+}
+.tough{
+    
+    text-align: center;
+    font-size: 240%;
+    font-weight:500;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.deep{
+    padding-bottom: 2%;
+}
+
+
+.dtect{
+   
+    margin-top: 20px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    border-radius: 25px;
+    
+    
+}
+.phew{
+  
+  color: white;
+  position: relative;
+  padding-left: 140px;
+  padding-top: 240px;
+  font-size: 150%;  
+
+}
+
+.detection{
+    margin-top: 35px;
+    background-color: black;
+    width: 105%;
+    height: 56vh;
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+  
+}
+.section4{
+    background-color: black;
+    margin-top: 5%;
+
+}
+
+.crash-image{
+    margin-left: 5%;
+    position: relative;
+}
+
+
+.crash-text{
+    position: absolute;
+    color: white;
+    height: 0;
+    padding-top: 2%;
+    text-align: center;
+    padding-left: 10%;
+    font-size:150%;
+    font-weight: 600;
+    
+   
+ 
+}
+
+.severe{
+    position: absolute;
+    height:0;
+    color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 150%;
+    font-weight:500;
+
+}
+.accurate{
+    
+    position: relative;
+    padding-left: 8%;
+}
+    
+.over{
+    position: absolute;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    padding-top: 17%;
+    padding-left: 63%;
+    font-size: 210%;
+
+    
+
+  
+    
+}
+.section5{
+    background-color: black;
+  
+
+    
+}
+.always-on{
+    
+    color: white;
+    font-size: 150%;
+    
+    
+}
+.text-on{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15%;
+}
+.way{
+    color: white;
+    font-size: 150%;
+    
+}
+.subtle{
+    padding-top: 5%;
+
+}
+.xdr{
+    padding-top: 5%;
+   padding-left: 5%;
+}
+.cycle{
+    color: white;
+    padding-top: 10%;
+    font-size: 130%;
+}
+
+.bike a:hover{
+    text-decoration: underline  rgb(38, 119, 211);
+}
+
+.recycle{
+    position: relative;
+    margin-top:5%;
+   background-color: black;
+   width: 20%;
+   height: 65vh;
+   border-radius: 25px;
+   margin-left: 15%;
+   margin-right: 1%;
+   display: grid;
+   place-items: center;
+ 
+}
+
+
+.bike{
+ 
+  color:rgb(38, 119, 211) ;
+  text-align: center;
+  padding-bottom: 10%;
+  font-size: 110%;
+  padding-left: 15%;
+  padding-right: 15%;
+   
+}
+.bike a{
+    color:rgb(38, 119, 211) ;
+    text-decoration: none;
+
+}
+.latest{
+    color: #86868b;
+ 
+}
+.privacy-that{
+    color: #86868b;
+   
+}
+
+.png{
+  margin-top: 8%;
+    width: 20%;
+    background-color:rgb(21, 19, 19);
+    height: 70vh;
+    border-radius: 25vh;
+    margin-left: 20%;
+}
+
+.sensor{
+    display: none;
+}
+.section6{
+    background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.retina{
+    color: #86868b;
+    margin-top: 5%;
+    font-size: 120%;
+    
+    
+   
+
+}
+span{
+    color: white;
+}
+
+
+.yellow2{
+    margin-top: 15%;
+    display: flex;
+   
+    margin-left: 5%;
+   
+    
+
+
+}
+.maxi{
+    margin-top: 10%;
+    margin-left: 10%;
+   
+}
+.promax{
+    margin-bottom: 1%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    margin-left: 20%;
+    font-size: 120%;
+
+}
+.promax5{
+    margin-bottom: 2%;
+    color: white;
+    margin-left: 10%;
+    font-size: 110%;
+}
+.max{
+    margin-top: 12%;
+    margin-left: 3%;
+}
+.cm{
+    margin-bottom: 1%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+    will-change: transform;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    margin-left: 15%;
+    font-size: 120%;
+
+}
+.cm5{
+    margin-bottom: 2%;
+    color: white;
+    margin-left: 15%;
+    font-size: 110%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media screen  and ( max-width:550px){
+    h1{
+        
+        padding: 0;
+        font-size:300%;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    
+        
+       
+        
+    }
+    #video2{
+        display: block;
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    #container{
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        height: 60vh;
+    }
+   header{
+   display: flex;
+   justify-content:space-between;
+   }
+  
+   #hdfc{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+  figure{
+    font-size: small;
+  }
+  #iphone{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  #ruppees{
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+  b1{
+    margin-bottom: 10%;
+
+  }
+  section{
+    display: block;
+
+  }
+
+  .dynamic{
+   margin-left: 5%;
+   margin-right: 5%;
+    width: 90%;
+   
+    height: 90%;
+  }
+  .island{
+    width: 90%;
+  }
+  .bionic{
+    margin-top: 5%;
+    width: 90%;
+    
+   
+    margin-left: 5%;
+   margin-right: 5%
+   
+  }
+  .chip{
+    padding-right: 30%;
+
+    
+  }
+  .battery{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+   margin-right: 5%
+
+  }
+  .that{
+    margin-top: 10%;
+  }
+  .in{
+    margin-top: 5%;
+  }
+  .action-mode{
+    margin-top: 5%;
+    width: 90%;
+     height:max-content;
+     height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+  }
+  .background-clip{
+    width: 90%;
+    height: 550px;
+    object-fit: cover;
+
+  }
+
+  .display{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+
+  }
+  
+  
+  .apple{
+    width: 90%;
+  
+  }
+  .always{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size:xx-large;
+        
+      }
+  .ceramic{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+  }
+  .tough{
+    margin-top: 2%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+ 
+
+
+  .dtect{
+    width: 90%;
+    margin-left: 5%;
+    margin-left: 5%;
+   
+    
+  }
+  .ance{
+    object-fit: cover;
+   
+  }
+ 
+  .phew{
+    padding-left: 40%;
+  }
+  
+  .detection{
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    height: fit-content;
+  }
+  .ash{
+    width: 90%;
+    
+    object-fit: cover;
+  }
+
+  .crash-image{
+    width: 90%;
+  }
+ 
+ .subtle{
+    width: 75%;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-bottom: 10%;
+   
+ }
+.xdr{
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 10%;
+  
+}
+
+
+.over{
+    
+    padding: 0;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5%; 
+    
+}
+.accurate{
+    display: none;
+}
+
+.sensor{
+    
+    padding-top: 30%;
+    padding-bottom: 5%;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.severe{
+    padding-top: 10%;
+    padding-right: 5%;
+}
+
+.yellow2{
+    display: inline;
+}
+.retina{
+    text-align: center;
+    margin-bottom: 15%;
+}
+.erm{
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+
+.promax{
+    text-align: center;
+   margin-left: 0%;
+}
+.promax5{
+    text-align: center;
+    margin-left: 0%;
+}
+.maxi{
+    margin: auto;
+    margin-bottom: 10%;
+    
+}
+.ct7{
+    margin-left: 25%;
+}
+.max{
+    margin: auto;
+   
+   
+
+}
+.cm{
+    text-align: center;
+   margin-left: 0%;
+
+}
+.cm5{
+    text-align: center;
+    margin-left: 0%;
+}
+.pro5{
+    margin-left: 25%;
+   
+
+}
+
+
+
+   
+}
+
+
+
+  
+
+@media screen  and ( min-width:550px){
+    #image{
+        display: block;
+    }
+    #video{
+        display: block;
+    }
+    .accurate{
+        display: block;
+    }
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+

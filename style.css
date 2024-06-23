@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.image2{
+    margin-left: 36%;
+
+}
+
+
+
+
+
+#box1{
+    border: 5px;
+    border-radius: 20px;
+    width: 1500px;
+    height: 600px;
+    background-color: black;
+    margin-top: 50px;
+    
+    
+    
+
+    
+
+    
+}
+
+.text1{
+    color: white;
+    position: absolute; top: 35%;left: 8%;
+    font-size: 30px;
+   
+}
+
+
+
+p:hover{
+    color: gray;
+}
+#image3{
+    margin-top: 400px;
+}
+#image4{
+   
+    margin-top: 300px;
+    margin-left: 300px;
+    width:10px ;
+    height:20px ;
+}
+#image5{
+    margin-top: 700px;
+    margin-right: 200px;
+    position: relative;
+}
+#image6{
+    position: absolute;
+}
+    
+    
+    
+.fa-solid{
+    color: whitesmoke;
+    position: absolute; top: 35%;left: 8%;
+    font-size: 30px;
+    
+}
+.fa-solid:hover{
+    color: grey;
+}
+.apple{
+    color: #fff;
+}
+    
+    
+
+
+
+
+    

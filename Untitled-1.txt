@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<karthi>
+    <head>
+
+        <title>
+
+        karthi's webiste 
+        <hr>
+        </title>
+    </head>
+    <body>
+
+      <h1>assault rifle guns</h1>
+      <ul>
+  <li > m416 </li>
+  <li> m1a64</li>
+  <li> akm</li>
+  <li> groza
+    <Ul>
+   <li> this the most powerful gun</li>
+  </Ul>
+</li>
+
+
+</ul>
+
+<h2> smg guns</h2>
+<ol type="1">
+    <li>ump9</li>
+    <li>uzi <Ol type ="I">
+       <li>  most underated gun</li>
+    </Ol>
+
+    </li>
+
+    <li> bizon</li>
+
+</ol>
+
+<h3>sniper guns</h3>
+
+<dl>
+    <ins><dt>AWM</dt></ins>
+    
+
+        <dd>
+            this is one shot killer sniper 
+            and its only available in air drop  
+        </dd>
+
+        <ins>  <dt> m24     </dt></ins>   
+        <dd>
+            this is good sniper gun and its available in random place 
+        </dd>
+        <ins> <dt> kar98</dt></ins>
+        <dd>it is  most underated sniper and its available in random place</dd>
+
+
+
+</dl>
+
+
+
+
+    
+    </body>
+
+
+</karthi>

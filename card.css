@@ -1,0 +1,7 @@
+.a{
+    opacity: 1;
+    transition: 500ms;
+}
+html.is-animating .a{
+    opacity: 0;
+}
